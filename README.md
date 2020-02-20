@@ -4,7 +4,7 @@
 ## Importing the library
 
 ```sh
-from mathevaluator.benmatheval import Evaluator
+from mathevaluator import Evaluator
 ```
 ## Creating instance
 
