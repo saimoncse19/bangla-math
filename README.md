@@ -25,3 +25,5 @@ print(new_ex2)
 
 License
 ----
+
+MIT
