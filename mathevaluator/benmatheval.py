@@ -10,7 +10,7 @@
 
 class Evaluator:
 
-    def __str__(self):
+    def __init__(self):
         self._digits = ["০", "১", "২", "৩", "৪", "৫", "৬", "৭", "৮", "৯"]
         self._operators = ["=", "+", "-", "*", "/", "%", "<", ">", "×", "÷"]
 
@@ -87,5 +87,5 @@ if __name__ == '__main__':
     print(new_ex)
 
     exp2 = "৩*(৩+৬)"
-    new_ex2 = ben_math.bengali_to_english(exp2)
+    new_ex2 = ben_math.bengali_to_bengali(exp2)
     print(new_ex2)

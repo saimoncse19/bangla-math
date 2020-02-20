@@ -13,7 +13,7 @@ setup(
   author='Saimon Hossain',
   author_email='saimoncse19@gmail.com',
   url='https://github.com/saimoncse19',
-  download_url='https://github.com/user/reponame/archive/v_01.tar.gz',
+  download_url='https://github.com/saimoncse19/bangla-math/archive/v1.1.tar.gz',
   keywords=['math-converter', 'bangla math evaluator', 'math evaluator'],
   install_requires=[],
   classifiers=[
