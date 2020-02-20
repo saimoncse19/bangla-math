@@ -17,13 +17,10 @@ setup(
   keywords=['math-converter', 'bangla math evaluator', 'math evaluator'],
   install_requires=[],
   classifiers=[
-    'Development Status :: 5 - stable',
-    'Intended Audience :: programmers',
-    'Topic :: Software Development :: Build Tools',
     'License :: OSI Approved :: MIT License',
     'Programming Language :: Python :: 3',
-    'Programming Language :: Python :: 3.6',
-    'Programming Language :: Python :: 3.7',
-    'Programming Language :: Python :: 3.8',
+    "Operating System :: OS Independent",
   ],
+  python_requires='>=3.6',
 )
+
