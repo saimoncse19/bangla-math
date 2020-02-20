@@ -2,7 +2,7 @@ from distutils.core import setup
 
 setup(
   name='banglamath',
-  packages=['banglamath'],
+  packages=['mathevaluator'],
   version='1.1',
   license='MIT',
   description='The Evaluator class in banglamath has two functions: bengali_to_english() that'
