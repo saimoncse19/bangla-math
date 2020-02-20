@@ -77,3 +77,15 @@ class Evaluator:
                 result_in_bengali = str(result).translate(trans_table)
                 return result_in_bengali
 
+
+if __name__ == '__main__':
+
+    ben_math = Evaluator()
+
+    exp1 = "((৫+৬+৮)/৭*৪-৯%৩)"
+    new_ex = ben_math.bengali_to_english(exp1)
+    print(new_ex)
+
+    exp2 = "৩*(৩+৬)"
+    new_ex2 = ben_math.bengali_to_english(exp2)
+    print(new_ex2)
