@@ -30,7 +30,7 @@ class Evaluator:
 
         if validity:
             sub = "".join(self._digits) + "".join(self._operators) + "[]{}()."
-            sub_with = "0123456789=+-*/%<>*+" + "()()()."
+            sub_with = "0123456789=+-*/%<>*/" + "()()()."
 
             trans_table = str.maketrans(sub, sub_with)
             exp = expression.translate(trans_table)
@@ -59,7 +59,7 @@ class Evaluator:
 
         if validity:
             sub = "".join(self._digits) + "".join(self._operators) + "[]{}()."
-            sub_with = "0123456789=+-*/%<>*+" + "()()()."
+            sub_with = "0123456789=+-*/%<>*/" + "()()()."
 
             trans_table = str.maketrans(sub, sub_with)
             exp = expression.translate(trans_table)
